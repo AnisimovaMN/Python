@@ -5,6 +5,8 @@
 
 a = str(input('Введите число: '))
 a = a.replace('.','')
+a = a.replace(',','')
+a = a.replace('-','')
 s = 0
 for i in a:
     s += int(i)
